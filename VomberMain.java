@@ -2,31 +2,6 @@ package VomberDemo;
 
 public class VomberMain {
 	public static void main(String[] args) {
-		VomberFrame vf = new VomberFrame("´Ü¾î Æø°Ý±â");
+		VomberFrame vf = new VomberFrame("ë‹¨ì–´ í­ê²©ê¸°");
 	}
 }
-/*ÀÌ ÇÁ·Î±×·¥ÀÇ »ç¿ëÀÚ°¡ ´Ü¾î¸¦ ¿Ü¿ï ¶§±îÁö ½ÃÇèÁö¸¦ »ý¼ºÇÏ°Ú´Ù´Â ÀÇ¹Ì¿¡¼­
- * Vocabulary(´Ü¾î) + Bomber(Æø°Ý±â)
- * Vomber(´Ü¾îÆø°Ý±â)¶ó°í ÀÌ¸§À» Áö¾ú½À´Ï´Ù.
- * 
- * ¿ø·¡ÀÇ °èÈ¹Àº »çÁøÀ» ³ÖÀº ¹è°æ¿¡ ID(Å×ÀÌºí¸í)¿Í PASSWORD¸¦ ¹Þ¾Æ¼­ DB¿Í ¿¬°áÇÏ´Â°Çµ¥
- * ÀÚ²Ù ¿À·ù°¡ ³ª°í °è¼Ó ºÙÀâ°í ÀÖ¾îµµ ÇØ°áÀÌ ¾ÈµÅ¼­ Å¸ÇùÇß½À´Ï´Ù.
- * ±×¸®°í ´Ü¾î¸¦ µî·Ï ÇÒ ¶§ ´Ü¾î¸¦ ±×·ìÈ­ÇÏ¿©
- * ½ÃÇèÁö »ý¼º½Ã¿¡ Æ÷ÇÔ, ¹ÌÆ÷ÇÔÇÏ¿© »ý¼ºÇÒ ¼ö ÀÖ°Ô ¸¸µé·Á°í ÇßÀ¸³ª ÇØ°áÀÌ ¾ÈµÅ¼­
- * ÇÙ½É¸¸ ÁöÅ°´Â ¹æÇâÀ¸·Î ¼öÁ¤ÇÏ¿´½À´Ï´Ù.
- * 
- * ¿ì¼± sql¿¡ create demo(vocabulary varchar2(80), meaning varchar(80));À» ÇØÁÝ´Ï´Ù.
- *
- * ´Ü¾îµî·ÏÀ» ÇÏ¸é DB¿¡ ±â·ÏÀÌ µÇ°í
- * ¹Ù·Î ±âº» Ã¢¿¡ ´Ü¾î°¡ º¸¿©Áö°Ô ÇÏ·Á°í ÇßÀ¸³ª
- * µî·Ïµµ Àß ¾ÈµÇ°í ¹Ù·Î¹Ù·Î º¸¿©ÁöÁöµµ ¾Ê½À´Ï´Ù..
- * 
- * ½ÃÇèÁö »ý¼ºÀº
- * ÇÁ·Î±×·¥ÀÌ µî·ÏµÈ ´Ü¾î¸¦ ¹ÙÅÁÀ¸·Î
- * ´Ü¾îÀÇ ¿µ¾î ¶æ°ú ÇÑ±Û ¶æÀ» ¹«ÀÛÀ§·Î ÇÏ³ª °í¸¨´Ï´Ù.
- *±×¸®°í ±×°ÍÀ» ¿¢¼¿ ÆÄÀÏ¿¡ ÀÛ¼ºÇÏ¿© ¹ÙÅÁÈ­¸é¿¡ ÀúÀåÇÏ°í
- *³×Æ®¿öÅ©¸¦ ÅëÇØ¼­ ´©±º°¡¿¡°Ô Àü´ÞÇÒÁö ¸»Áö¸¦ °áÁ¤ÇÕ´Ï´Ù.
- *
- *±×·±µ¥ ÀÌ°Ô ¿¢¼¿ÆÄÀÏÀ» ¸¸µé¸é È®ÀåÀÚ°¡ Àß¸ø µÇ¾ú´Ù°í ³ª¿Í¼­ ¸Þ¸ðÀåÀ¸·Î ¹Ù²å½À´Ï´Ù..
- **/
- 
